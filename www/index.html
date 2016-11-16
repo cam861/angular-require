@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Sample Project</title>
+
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+        <!-- data-main attribute tells require.js to load
+             scripts/main.js after require.js loads. -->
+        <script data-main="js/app" src="js/require.js"></script>
+    </head>
+    <body ng-cloak>
+      <div class="container" ng-controller="test">
+        <h1>My Sample Project</h1>
+        <!-- <p>{{test}}</p> -->
+        <div ui-view></div>
+
+      </div>
+    </body>
+</html>
